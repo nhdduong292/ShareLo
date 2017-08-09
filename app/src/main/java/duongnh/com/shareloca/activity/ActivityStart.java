@@ -55,7 +55,7 @@ public class ActivityStart extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(ActivityStart.this, MainActivity.class);
+        Intent intent = new Intent(ActivityStart.this, ActivityLogin.class);
         startActivity(intent);
     }
 }

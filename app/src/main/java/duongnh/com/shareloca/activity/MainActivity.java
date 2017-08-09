@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void initFragment() {
         fragmentTemp = fragmentSpecial;
-       FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.panel, fragmentSpecial);
         transaction.add(R.id.panel, fragmentFriends);
@@ -70,7 +70,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         llMain.setOnClickListener(this);
         drawer.setOnClickListener(this);
         drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
-
         ivCancel.setOnClickListener(this);
     }
 
