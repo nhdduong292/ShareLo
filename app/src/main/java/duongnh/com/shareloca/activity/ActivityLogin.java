@@ -40,7 +40,15 @@ public class ActivityLogin extends Activity {
         transaction.hide(fragmentRegister);
         transaction.commit();
     }
+    public void showFragment(Fragment hide, Fragment show){
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.hide(hide);
+        transaction.show(show);
+        fragmentTemp1 = show;
+        transaction.commit();
 
+    }
     private void initEvent() {
 
     }
@@ -51,5 +59,17 @@ public class ActivityLogin extends Activity {
 
     private void initView() {
 
+    }
+
+    public Fragment getFragmentTemp1() {
+        return fragmentTemp1;
+    }
+
+    public FragmentLogin getFragmentLogin() {
+        return fragmentLogin;
+    }
+
+    public FragmentRegister getFragmentRegister() {
+        return fragmentRegister;
     }
 }
