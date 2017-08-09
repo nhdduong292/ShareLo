@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ll_menu_bar"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="@dimen/size50">
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorGreyLine"
+        android:layout_height="@dimen/size1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_special"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_special"
+                android:layout_width="@dimen/size30"
+                android:src="@mipmap/ic_special_gray"
+                android:layout_height="@dimen/size30" />
+            <TextView
+                android:id="@+id/tv_special"
+                android:layout_width="wrap_content"
+                android:text="Special"
+                android:textSize="@dimen/size_text_14"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="@dimen/size1"
+            android:background="@color/colorGreyLine"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:id="@+id/ll_nearby"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_nearby"
+                android:layout_width="@dimen/size30"
+                android:src="@mipmap/ic_nearby_gray"
+                android:padding="@dimen/size2"
+                android:layout_height="@dimen/size30" />
+            <TextView
+                android:id="@+id/tv_nearby"
+                android:layout_width="wrap_content"
+                android:text="Nearby"
+                android:textSize="@dimen/size_text_14"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="@dimen/size1"
+            android:background="@color/colorGreyLine"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:id="@+id/ll_friends"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_friends"
+                android:layout_width="@dimen/size30"
+                android:src="@mipmap/ic_people_gray"
+                android:padding="@dimen/size2"
+                android:layout_centerInParent="true"
+                android:layout_height="@dimen/size30" />
+            <TextView
+                android:id="@+id/tv_friends"
+                android:layout_width="wrap_content"
+                android:text="Friend"
+                android:textSize="@dimen/size_text_14"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="@dimen/size1"
+            android:background="@color/colorGreyLine"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:id="@+id/ll_chat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_chat"
+                android:layout_width="@dimen/size30"
+                android:src="@mipmap/ic_chat"
+                android:padding="@dimen/size2"
+                android:layout_height="@dimen/size30" />
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="wrap_content"
+                android:text="Chat"
+                android:textSize="@dimen/size_text_14"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

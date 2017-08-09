@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+
+    android:background="@color/colorWhite"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:id="@+id/ll_main"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/panel"
+                android:layout_height="match_parent">
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/size55">
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="@dimen/size50"
+                    android:src="@mipmap/ic_more"
+                    android:padding="@dimen/size12"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/size50" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include layout="@layout/menu_bar"></include>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/panel2"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/colorGreenAppTrans90"
+        android:layout_height="match_parent">
+       <include layout="@layout/frm_menu"></include>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

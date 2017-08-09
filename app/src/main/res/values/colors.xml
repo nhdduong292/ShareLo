@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#f8faf8</color>
+    <color name="colorSelection">#c9f2c9</color>
+    <color name="colorGreen">#28B996</color>
+    <color name="colorBlack">#444444</color>
+    <color name="colorGray">#A0A0A0</color>
+    <color name="colorRed">#FF0037</color>
+    <!--Color App-->
+    <color name="colorGreenText">#64DD17</color>
+    <color name="colorBlueApp">#21B9BE</color>
+    <color name="colorPinkApp">#EB506F</color>
+    <color name="colorGreenAppTrans70">#B328B996</color>
+    <color name="colorGreenAppTrans90">#E628B996</color>
+    <color name="colorPinkAppTrans70">#B3EB506F</color>
+    <color name="colorBlueButton">#3D5A93</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorGreyLine">#DBDBDB</color>
+    <color name="colorGreyText">#2C2C30</color>
+    <color name="colorGreyText1">#646565</color>
+    <color name="colorGreyText2">#787878</color>
+    <color name="colorGreyText3">#9C9C9B</color>
+    <color name="colorGreyText4">#A0A09F</color>
+    <color name="colorGreyText5">#AEAEAE</color>
+    <color name="colorGreyText6">#C4C6C7</color>
+    <color name="colorGreyText7">#C9C9C9</color>
+    <color name="colorGreyText8">#DADADA</color>
+    <color name="colorGreyText9">#E5E5E6</color>
+    <color name="colorGreyButton">#F2F2F2</color>
+    <color name="colorGreyBackGround">#F3F3F3</color>
+
+    <!--Color transparent Black %-->
+    <color name="colorBlackTrans">#B3000000</color>
+    <color name="colorBlackTrans90">#E6000000</color>
+    <color name="colorBlackTrans85">#D9000000</color>
+    <color name="colorBlackTrans80">#CC000000</color>
+    <color name="colorBlackTrans75">#BF000000</color>
+    <color name="colorBlackTrans70">#B3000000</color>
+    <color name="colorBlackTrans65">#A6000000</color>
+    <color name="colorBlackTrans60">#99000000</color>
+    <color name="colorBlackTrans55">#8C000000</color>
+    <color name="colorBlackTrans50">#80000000</color>
+    <color name="colorBlackTrans45">#73000000</color>
+    <color name="colorBlackTrans40">#66000000</color>
+    <color name="colorBlackTrans35">#59000000</color>
+    <color name="colorBlackTrans30">#4D000000</color>
+    <color name="colorBlackTrans25">#40000000</color>
+    <color name="colorBlackTrans20">#33000000</color>
+    <color name="colorBlackTrans15">#26000000</color>
+    <color name="colorBlackTrans10">#1A000000</color>
+    <color name="colorBlackTrans5">#0D000000</color>
+
+
+    <!--Color transparent White %-->
+    <color name="colorWhiteTrans">#B3FFFFFF</color>
+    <color name="colorWhiteTrans90">#E6FFFFFF</color>
+    <color name="colorWhiteTrans85">#D9FFFFFF</color>
+    <color name="colorWhiteTrans80">#CCFFFFFF</color>
+    <color name="colorWhiteTrans75">#BFFFFFFF</color>
+    <color name="colorWhiteTrans70">#B3FFFFFF</color>
+    <color name="colorWhiteTrans65">#A6FFFFFF</color>
+    <color name="colorWhiteTrans60">#99FFFFFF</color>
+    <color name="colorWhiteTrans55">#8CFFFFFF</color>
+    <color name="colorWhiteTrans50">#80FFFFFF</color>
+    <color name="colorWhiteTrans45">#73FFFFFF</color>
+    <color name="colorWhiteTrans40">#66FFFFFF</color>
+    <color name="colorWhiteTrans35">#59FFFFFF</color>
+    <color name="colorWhiteTrans30">#4DFFFFFF</color>
+    <color name="colorWhiteTrans25">#40FFFFFF</color>
+    <color name="colorWhiteTrans20">#33FFFFFF</color>
+    <color name="colorWhiteTrans15">#26FFFFFF</color>
+    <color name="colorWhiteTrans10">#1AFFFFFF</color>
+    <color name="colorWhiteTrans5">#0DFFFFFF</color>
+</resources>

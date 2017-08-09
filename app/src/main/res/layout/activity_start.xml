@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:id="@+id/ll_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/ll_start"
+        android:layout_toRightOf="@+id/ll_start"
+        android:background="@color/colorGreen"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size70"
+            android:src="@drawable/googlemaps" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_start"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:background="@color/colorPinkApp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="ShareLoCa"
+            android:gravity="center"
+          android:layout_centerInParent="true"
+            android:textSize="@dimen/size70"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_skip"
+            android:layout_width="@dimen/size70"
+            android:text="Skip"
+            android:layout_gravity="bottom"
+           android:layout_centerHorizontal="true"
+            android:textSize="@dimen/size_text_15"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorWhite"
+            android:layout_height="@dimen/size70" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
